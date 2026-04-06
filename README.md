@@ -6,4 +6,4 @@ Usefull commands
 * git commit -m "Commit" - Commit the changes
 * git push origin - Pushes changes to git
 * git pull - pulls changes to you
-<a href="https://education.github.com/git-cheat-sheet-education.pdf"> Link to more github commands>
+* <a href="https://education.github.com/git-cheat-sheet-education.pdf"> Link to more github commands
