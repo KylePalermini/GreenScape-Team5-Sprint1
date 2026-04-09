@@ -6,3 +6,15 @@ body{
 #logo{
     height: 120px;
 }
+.frontPageImage{
+    width:100%;
+    height:66.6vh;
+    display:block;
+    object-fit:cover;
+    object-position: center;
+}
+@media (max-width: 768px) {
+    .frontPageImage{
+        height:50vh;
+    }
+}
