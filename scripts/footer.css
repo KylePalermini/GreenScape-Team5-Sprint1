@@ -1,0 +1,37 @@
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #DFE8CA;
+  color: #000000;
+  margin: 0 auto;
+  
+  /* Flexbox magic */
+  display: flex;
+  justify-content: space-around; /* Distributes lists evenly */
+  align-items: flex-start;      /* Aligns them to the top */
+  padding: 20px 0;
+}
+
+footer div {
+  flex: 1;             /* Gives each section equal width */
+  list-style-type: none;
+  margin: 0;
+  text-align: center;  /* Centers text within each column */
+}
+
+footer .links { 
+    display: flex;
+    justify-content: center; /* Centers the sub-lists horizontally */
+    gap: 40px;               /* Adds space between the sub-lists */
+    list-style: none;        /* Removes bullets from the parent ul */
+    padding: 0;
+}
+
+/* Ensure the nested lists don't have bullets */
+footer .links ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;        /* Optional: keeps text aligned left within the columns */
+}
