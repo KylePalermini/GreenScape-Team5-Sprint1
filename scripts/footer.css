@@ -5,17 +5,17 @@ footer {
   width: 100%;
   background-color: #DFE8CA;
   color: #000000;
-  margin: 0 auto;
+  margin: 0;
   
   /* Flexbox magic */
   display: flex;
   justify-content: space-around; /* Distributes lists evenly */
   align-items: flex-start;      /* Aligns them to the top */
-  padding: 20px 0;
+  padding: 10px 0;
 }
 
 footer div {
-  flex: 1;             /* Gives each section equal width */
+  flex:5px;             /* Gives each section equal width */
   list-style-type: none;
   margin: 0;
   text-align: center;  /* Centers text within each column */
@@ -34,4 +34,16 @@ footer .links ul {
     list-style-type: none;
     padding: 0;
     text-align: left;        /* Optional: keeps text aligned left within the columns */
+}
+
+
+/* ==================================== */
+/* --- Mobile/Tablet Responsiveness --- */
+/* ==================================== */
+@media (max-width: 768px) {
+
+    footer .links {
+    overflow: hidden;
+}
+
 }
