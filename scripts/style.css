@@ -3,6 +3,13 @@ body{
     font-family:'Courier New', Courier, monospace;
     font-size: 14pt;
 }
+.content-wrap {
+  position:absolute;
+  bottom: 20%;
+  left: 0%;
+  width: 100%; 
+  text-align: center;
+}
 #logo{
     height: 120px;
 }
