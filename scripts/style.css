@@ -26,8 +26,8 @@ body{
     object-fit: cover;
 }
 .text-box{
-    background-color: rgba(249, 249, 249, 0.5);
-    border: 2px solid #000000;
+    background-color: rgba(223, 232, 202, 0.6);
+    border: 2px solid #815426;
     border-radius: 15px;
     padding: 10px;
     margin: 20px;
