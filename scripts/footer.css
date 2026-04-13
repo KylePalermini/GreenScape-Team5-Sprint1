@@ -22,28 +22,40 @@ footer div {
 }
 
 footer .links { 
-    display: flex;
-    justify-content: center; /* Centers the sub-lists horizontally */
-    gap: 40px;               /* Adds space between the sub-lists */
-    list-style: none;        /* Removes bullets from the parent ul */
-    padding: 0;
+  display: flex;
+  justify-content: center; /* Centers the sub-lists horizontally */
+  gap: 40px;               /* Adds space between the sub-lists */
+  list-style: none;        /* Removes bullets from the parent ul */
+  padding: 0;
 }
 
 /* Ensure the nested lists don't have bullets */
 footer .links ul {
-    list-style-type: none;
-    padding: 0;
-    text-align: left;        /* Optional: keeps text aligned left within the columns */
+  list-style-type: none;
+  padding: 0;
+  text-align: left;        /* Optional: keeps text aligned left within the columns */
 }
 
+footer .links ul a {
+  color: #000000;
+}
+
+footer .links ul a:active {
+  color: #6BA142;
+}
+
+footer img {
+  flex: auto;
+  padding: 0, 5%, 0, 5%;
+}
 
 /* ==================================== */
 /* --- Mobile/Tablet Responsiveness --- */
 /* ==================================== */
 @media (max-width: 768px) {
 
-    footer .links {
-    overflow:auto;
+  footer .links {
+  overflow:auto;
 }
 
 }
