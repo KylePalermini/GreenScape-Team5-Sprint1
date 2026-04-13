@@ -14,15 +14,27 @@ body{
 #logo{
     height: 120px;
 }
-.frontPageImage{
-    width:100%;
-    height:66.6vh;
-    display:block;
-    object-fit:cover;
-    object-position: center;
+.frontImageContainer{
+    position: relative;
+    width: 100%;
+    height: 500px;
 }
-@media (max-width: 768px) {
-    .frontPageImage{
-        height:50vh;
-    }
+.frontPageImage{
+    height: 700px;
+    width:100%;
+    display:block;
+    object-fit: cover;
+}
+.text-box{
+    background-color: rgba(249, 249, 249, 0.5);
+    border: 2px solid #000000;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 20px;
+    position: absolute;
+    font-size: 13px;
+    top: 75px;
+    left:0;
+    width: 50%;
+    height: 350px;
 }
