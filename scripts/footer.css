@@ -1,14 +1,6 @@
-
-main{
-  min-height: calc(100vh - 150px);
-}
-
-
-
 footer {
   left: 0;
   bottom: 0;
-  height:150px;
   width: 100%;
   background-color: #DFE8CA;
   color: #000000;
