@@ -1,5 +1,5 @@
 footer {
-  position: fixed;
+  position: relative;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -46,16 +46,22 @@ footer .links ul a:active {
 
 footer img {
   flex: auto;
-  padding: 0, 5%, 0, 5%;
+  padding: 5%;
 }
 
 /* ==================================== */
 /* --- Mobile/Tablet Responsiveness --- */
 /* ==================================== */
-@media (max-width: 768px) {
-
+@media (max-width: 950px) {
   footer .links {
-  overflow:auto;
+    gap: 3px;
+  }
 }
 
+@media (max-width: 800px) {
+  footer .links {
+    flex-direction: column; /* This stacks the items vertically */
+    align-items: left;    /* Keeps them centered in the column */
+    gap: 20px;              /* Reduces space between stacked items */
+  }
 }
