@@ -1,6 +1,6 @@
 
 footer {
-  height:150px;
+  min-height:150px;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -16,7 +16,7 @@ footer {
 }
 
 footer div {
-  flex:5px;             /* Gives each section equal width */
+  flex:1;             /* Gives each section equal width */
   list-style-type: none;
   margin: 0;
   text-align: center;  /* Centers text within each column */
