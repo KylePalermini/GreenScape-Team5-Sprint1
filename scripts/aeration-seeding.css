@@ -1,0 +1,78 @@
+body {
+    background-color: #ffffff;
+    margin: 0;
+}
+
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px 80px 20px; 
+    width: 100%;
+    background-color: #ffffff;
+    min-height: calc(100vh - 200px);
+}
+
+.top-center-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 3rem;
+    width: 100%;
+}
+
+
+.text-content {
+    max-width: 1000px; 
+    width: 90%;
+    margin-right: auto; 
+    margin-left: 21%; 
+    
+   
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 40px;       
+    align-items: flex-start;
+}
+
+
+.text-content h2 {
+    margin-top: 25px;
+    color: #000000; 
+}
+
+.text-content p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color:black;
+}
+
+
+@media (max-width: 768px) {
+    .text-content {
+        margin-left: auto; 
+        margin-right: auto;
+    }
+}
+
+.img-container {
+    float: right;         /* Pushes image to the right */
+    margin-left: 20px;    /* Adds space between the text and the image */
+    margin-bottom: 20px;  /* Adds space below the image */
+    width: 500px;         /* Makes the image smaller */
+    height: auto;         /* Maintains proportions */
+    border-radius: 8px;   /* Optional: rounds the corners */
+}
+@media (max-width: 768px) {
+    .img-container {
+        float: none;
+        display: block;
+        margin: 0 auto 20px auto;
+        width: 100%;
+        max-width: 300px;
+    }
+    .text-content {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
