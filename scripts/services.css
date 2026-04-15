@@ -4,10 +4,12 @@
       justify-content: center;
       gap: 20px;
       padding: 20px;
+
+      flex-wrap: wrap;
     }
 
     .card {
-      width: 500px;
+      width: clamp(280px, 45%, 500px);
       background: white;
       border-radius: 10px;
       overflow: hidden;
@@ -34,6 +36,10 @@
 
     .card-content h3 {
       margin: 0 0 10px;
+      font-size: 30px;
+    }
+    .card-content ul {
+      font-size: 14px;
     }
 
     .card-content p {
@@ -64,4 +70,12 @@
   box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 
   text-align: center;
+}
+
+@media (max-width: 900px) {
+  .card {
+    width: 100%;       /* full width on small screens */
+    max-width: 500px;  /* keeps them readable */
+    justify-content: center;
+  }
 }
