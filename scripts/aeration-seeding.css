@@ -1,85 +1,60 @@
-<<<<<<< HEAD
-.lefttext{
-    text-align: left;
-    margin-left: 40px;
-    margin-right: 5px;
-    margin-top: 50px;
-    width: 40%;
-    font-size: 25px;
-}
-.right-image{
-    position: absolute;
-    top: 200px;
-    right: 40px;
-    width: 50%;
-    height: 50%;
-}
-.righttext{
-    text-align: right;
-    margin-bottom: 50px;
-    margin-top: 50px;
-    margin-right: 5px;
-    right: 40px;
-    width: 50%;
-    font-size: 25px;
-=======
 body {
     background-color: #ffffff;
     margin: 0;
 }
-
-
+ 
+ 
 .info-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 40px 20px 80px 20px; 
+    padding: 40px 20px 80px 20px;
     width: 100%;
     background-color: #ffffff;
     min-height: calc(100vh - 200px);
 }
-
+ 
 .top-center-title {
     text-align: center;
     margin-bottom: 30px;
     font-size: 3rem;
     width: 100%;
 }
-
-
+ 
+ 
 .text-content {
-    max-width: 1000px; 
+    max-width: 1000px;
     width: 90%;
-    margin-right: auto; 
-    margin-left: 21%; 
-    
+    margin-right: auto;
+    margin-left: 21%;
+   
    
     display: flex;
-    flex-wrap: wrap; 
-    gap: 40px;       
+    flex-wrap: wrap;
+    gap: 40px;      
     align-items: flex-start;
 }
-
-
+ 
+ 
 .text-content h2 {
     margin-top: 25px;
-    color: #000000; 
+    color: #000000;
 }
-
+ 
 .text-content p {
     line-height: 1.6;
     margin-bottom: 15px;
     color:black;
 }
-
-
+ 
+ 
 @media (max-width: 768px) {
     .text-content {
-        margin-left: auto; 
+        margin-left: auto;
         margin-right: auto;
     }
 }
-
+ 
 .img-container {
     float: right;         /* Pushes image to the right */
     margin-left: 20px;    /* Adds space between the text and the image */
@@ -100,5 +75,4 @@ body {
         margin-left: auto;
         margin-right: auto;
     }
->>>>>>> b23acaa7df597978c4af06c5100434980f9ade05
 }
