@@ -46,7 +46,6 @@ body {
     margin-bottom: 15px;
     color:black;
 }
-<<<<<<< HEAD
  
  
 @media (max-width: 768px) {
@@ -56,9 +55,7 @@ body {
     }
 }
  
-=======
 
->>>>>>> 54b9d40ca61776e10e8fbbd7fc4b1d6dacc0c26b
 .img-container {
     float: right;         /* Pushes image to the right */
     margin-left: 20px;    /* Adds space between the text and the image */
@@ -80,7 +77,6 @@ body {
         margin-right: auto;
     }
 }
-<<<<<<< HEAD
 /* Layout container at the bottom of the page */
 .card-container {
     display: flex;
@@ -177,11 +173,9 @@ body {
     line-height: 1.6;
     font-size: 0.95rem;
 }
-=======
 h2 {
     clear: both !important;
     display: block !important;
     width: 100% !important;
 }
 
->>>>>>> newbranch
