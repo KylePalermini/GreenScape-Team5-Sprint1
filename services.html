@@ -103,6 +103,17 @@
             </ul>
         </div>
     </footer>
+    <audio id="hoverSound" src="sounds/hover.mp3" preload="auto"></audio>
 
+<script>
+  const sound = document.getElementById("hoverSound");
+
+  document.querySelectorAll(".card").forEach(card => {
+    card.addEventListener("mouseenter", () => {
+      sound.currentTime = 0;
+      sound.play();
+    });
+  });
+</script>
 </body>
 </html>
