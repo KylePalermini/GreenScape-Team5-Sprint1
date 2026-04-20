@@ -29,6 +29,9 @@ body{
 details[open] summary {
   display: none;
 }
+details summary {
+    cursor: pointer;
+}
 @media (max-width: 500px ){
     body{flex-direction: column;}
 }
