@@ -95,8 +95,8 @@
     display: block;
     width: 25px;
     height: 3px;
-    margin: 5px 0;
-    background-color: white;
+    margin: 5px 50px;
+    background-color: #225A35;
     transition: all 0.3s ease-in-out;
 }
 
@@ -125,7 +125,7 @@
         max-height: 0; /* Initially hidden */
         overflow: hidden;
         transition: max-height 0.3s ease-out;
-        background-color: #333; 
+        background-color: #DFE8CA; 
         text-align: center;
         /* Position links below the brand/hamburger by setting width to 100% */
         order: 1; /* Force nav-links to the second row in the flex container */
@@ -133,7 +133,7 @@
 
     .nav-links > li {
         width: 100%;
-        border-top: 1px solid #555;
+        border-top: 1px solid #97C23D;
     }
     
     /* Toggle menu open: Checkbox state controls visibility */
@@ -146,7 +146,7 @@
         position: static; /* Stack naturally below parent */
         width: 100%;
         display: none; /* Hide by default, show with JS 'active' class */
-        background-color: #555;
+        background-color: #CED6BB;
     }
 
     /* JavaScript 'active' class for mobile submenu toggle */
