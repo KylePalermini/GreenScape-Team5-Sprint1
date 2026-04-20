@@ -25,6 +25,10 @@ body{
     display:block;
     object-fit: cover;
 }
+/* When the details tag is open, hide its summary child */
+details[open] summary {
+  display: none;
+}
 @media (max-width: 500px ){
     body{flex-direction: column;}
 }
