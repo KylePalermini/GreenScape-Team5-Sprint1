@@ -95,8 +95,8 @@
     display: block;
     width: 25px;
     height: 3px;
-    margin: 5px 0;
-    background-color: white;
+    margin: 5px 50px;
+    background-color: #225A35;
     transition: all 0.3s ease-in-out;
 }
 
