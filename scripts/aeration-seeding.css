@@ -47,14 +47,6 @@ body {
     color:black;
 }
 
-
-@media (max-width: 768px) {
-    .text-content {
-        margin-left: auto; 
-        margin-right: auto;
-    }
-}
-
 .img-container {
     float: right;         /* Pushes image to the right */
     margin-left: 20px;    /* Adds space between the text and the image */
@@ -76,43 +68,51 @@ body {
         margin-right: auto;
     }
 }
-/* Flexbox layout for the cards */
+/* Layout container at the bottom of the page */
 .card-container {
-  display: flex;
-  gap: 20px; /* Space between cards */
-  padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 25px;
+    padding: 60px 20px;
+    flex-wrap: wrap;
 }
 
-/* Base Card Styling */
-.card {
-  background: white;
-  padding: 2rem;
-  width: 250px;
-  border-radius: 12px;
-  text-align: center;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  border: 2px solid transparent; /* Prevents jumping on hover */
-  
-  /* Smooth transition for the hover effect */
-  transition: all 0.3s ease;
-  cursor: pointer;
+/* Individual Card Styling using your specific class names */
+.hydroseeding, .overseeding {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 30px;
+    width: 320px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    transition: all 0.3s ease;
 }
 
-/* The Hover Effect (Highlighting) */
-.card:hover {
-  transform: translateY(-10px); /* Lifts the card up */
-  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
-  border-color: #4CAF50; /* Highlights border green */
-  background-color: #f0fff0; /* Subtle green tint */
+
+.hydroseeding:hover, .overseeding:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
 }
 
-.card h2 {
-  margin-top: 0;
-  color: #333;
+
+.hydroseeding h2 {
+    color: #1b5e20; 
+    font-family: Arial, sans-serif;
+    margin-top: 0;
 }
 
-.card p {
-  color: #666;
-  font-size: 0.9rem;
-  line-height: 1.4;
+.overseeding h2 {
+    color: #558b2f; 
+    font-family: Arial, sans-serif;
+    margin-top: 0;
+}
+
+/* Text styling */
+.hydroseeding p, .overseeding p {
+    color: #616161;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    font-size: 0.95rem;
 }
