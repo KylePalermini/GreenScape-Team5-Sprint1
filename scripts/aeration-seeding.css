@@ -80,6 +80,7 @@ body {
         margin-right: auto;
     }
 }
+<<<<<<< HEAD
 /* Layout container at the bottom of the page */
 .card-container {
     display: flex;
@@ -176,3 +177,11 @@ body {
     line-height: 1.6;
     font-size: 0.95rem;
 }
+=======
+h2 {
+    clear: both !important;
+    display: block !important;
+    width: 100% !important;
+}
+
+>>>>>>> newbranch
