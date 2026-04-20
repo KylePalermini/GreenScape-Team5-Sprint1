@@ -2,51 +2,63 @@ body {
     background-color: #ffffff;
     margin: 0;
 }
-
-
+ 
+ 
 .info-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 40px 20px 80px 20px; 
+    padding: 40px 20px 80px 20px;
     width: 100%;
     background-color: #ffffff;
     min-height: calc(100vh - 200px);
 }
-
+ 
 .top-center-title {
     text-align: center;
     margin-bottom: 30px;
     font-size: 3rem;
     width: 100%;
 }
-
-
+ 
+ 
 .text-content {
-    max-width: 1000px; 
+    max-width: 1000px;
     width: 90%;
-    margin-right: auto; 
-    margin-left: 21%; 
-    
+    margin-right: auto;
+    margin-left: 21%;
+   
    
     display: flex;
-    flex-wrap: wrap; 
-    gap: 40px;       
+    flex-wrap: wrap;
+    gap: 40px;      
     align-items: flex-start;
 }
-
-
+ 
+ 
 .text-content h2 {
     margin-top: 25px;
-    color: #000000; 
+    color: #000000;
 }
-
+ 
 .text-content p {
     line-height: 1.6;
     margin-bottom: 15px;
     color:black;
 }
+<<<<<<< HEAD
+ 
+ 
+@media (max-width: 768px) {
+    .text-content {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+ 
+=======
 
+>>>>>>> 54b9d40ca61776e10e8fbbd7fc4b1d6dacc0c26b
 .img-container {
     float: right;         /* Pushes image to the right */
     margin-left: 20px;    /* Adds space between the text and the image */
@@ -68,6 +80,7 @@ body {
         margin-right: auto;
     }
 }
+<<<<<<< HEAD
 /* Layout container at the bottom of the page */
 .card-container {
     display: flex;
@@ -164,3 +177,11 @@ body {
     line-height: 1.6;
     font-size: 0.95rem;
 }
+=======
+h2 {
+    clear: both !important;
+    display: block !important;
+    width: 100% !important;
+}
+
+>>>>>>> newbranch
