@@ -76,3 +76,9 @@ body {
         margin-right: auto;
     }
 }
+h2 {
+    clear: both !important;
+    display: block !important;
+    width: 100% !important;
+}
+
