@@ -2,59 +2,50 @@ body {
     background-color: #ffffff;
     margin: 0;
 }
- 
- 
+
+
 .info-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 40px 20px 80px 20px;
+    padding: 40px 20px 80px 20px; 
     width: 100%;
     background-color: #ffffff;
     min-height: calc(100vh - 200px);
 }
- 
+
 .top-center-title {
     text-align: center;
     margin-bottom: 30px;
     font-size: 3rem;
     width: 100%;
 }
- 
- 
+
+
 .text-content {
-    max-width: 1000px;
+    max-width: 1000px; 
     width: 90%;
-    margin-right: auto;
-    margin-left: 21%;
-   
+    margin-right: auto; 
+    margin-left: 21%; 
+    
    
     display: flex;
-    flex-wrap: wrap;
-    gap: 40px;      
+    flex-wrap: wrap; 
+    gap: 40px;       
     align-items: flex-start;
 }
- 
- 
+
+
 .text-content h2 {
     margin-top: 25px;
-    color: #000000;
+    color: #000000; 
 }
- 
+
 .text-content p {
     line-height: 1.6;
     margin-bottom: 15px;
     color:black;
 }
- 
- 
-@media (max-width: 768px) {
-    .text-content {
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
- 
 
 .img-container {
     float: right;         /* Pushes image to the right */
@@ -77,8 +68,6 @@ body {
         margin-right: auto;
     }
 }
-<<<<<<< HEAD
-=======
 /* Layout container at the bottom of the page */
 .card-container {
     display: flex;
@@ -90,7 +79,7 @@ body {
 }
 
 /* Individual Card Styling using your specific class names */
-.hydroseeding, .overseeding {
+.aeration-seeding, .hydroseeding {
     background-color: #ffffff;
     border: 1px solid #e0e0e0;
     border-radius: 12px;
@@ -102,26 +91,26 @@ body {
 }
 
 
-.hydroseeding:hover, .overseeding:hover {
+.aeration-seeding:hover, .hydroseeding:hover {
     transform: translateY(-8px);
     box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
 }
 
 
-.hydroseeding h2 {
+.aeration-seeding h2 {
     color: #1b5e20; 
     font-family: Arial, sans-serif;
     margin-top: 0;
 }
 
-.overseeding h2 {
+.hydroseeding h2 {
     color: #558b2f; 
     font-family: Arial, sans-serif;
     margin-top: 0;
 }
 
 /* Text styling */
-.hydroseeding p, .overseeding p {
+.aeration-seeding p, .hydroseeding p {
     color: #616161;
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -138,7 +127,7 @@ body {
 }
 
 /* Individual Card Styling using your specific class names */
-.hydroseeding, .overseeding {
+.aeration-seeding, .hydroseeding {
     background-color: #ffffff;
     border: 1px solid #e0e0e0;
     border-radius: 12px;
@@ -150,35 +139,28 @@ body {
 }
 
 /* Hover effects */
-.hydroseeding:hover, .overseeding:hover {
+.aeration-seeding:hover, .hydroseeding:hover {
     transform: translateY(-8px);
     box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
 }
 
 /* Distinctive Header colors */
-.hydroseeding h2 {
+.aeration-seeding h2 {
     color: #1b5e20; /* Deep Green */
     font-family: Arial, sans-serif;
     margin-top: 0;
 }
 
-.overseeding h2 {
+.hydroseeding h2 {
     color: #558b2f; /* Lighter Grass Green */
     font-family: Arial, sans-serif;
     margin-top: 0;
 }
 
 /* Text styling */
-.hydroseeding p, .overseeding p {
+.hydroseeding p, .aeration-seeding p {
     color: #616161;
     font-family: Arial, sans-serif;
     line-height: 1.6;
     font-size: 0.95rem;
 }
->>>>>>> os
-h2 {
-    clear: both !important;
-    display: block !important;
-    width: 100% !important;
-}
-
