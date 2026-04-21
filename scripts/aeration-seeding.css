@@ -46,7 +46,6 @@ body {
     margin-bottom: 15px;
     color:black;
 }
-<<<<<<< HEAD
  
  
 @media (max-width: 768px) {
@@ -56,9 +55,7 @@ body {
     }
 }
  
-=======
 
->>>>>>> 54b9d40ca61776e10e8fbbd7fc4b1d6dacc0c26b
 .img-container {
     float: right;         /* Pushes image to the right */
     margin-left: 20px;    /* Adds space between the text and the image */
@@ -80,108 +77,9 @@ body {
         margin-right: auto;
     }
 }
-<<<<<<< HEAD
-/* Layout container at the bottom of the page */
-.card-container {
-    display: flex;
-    justify-content: center;
-    align-items: stretch;
-    gap: 25px;
-    padding: 60px 20px;
-    flex-wrap: wrap;
-}
-
-/* Individual Card Styling using your specific class names */
-.hydroseeding, .overseeding {
-    background-color: #ffffff;
-    border: 1px solid #e0e0e0;
-    border-radius: 12px;
-    padding: 30px;
-    width: 320px;
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.08);
-    text-align: center;
-    transition: all 0.3s ease;
-}
-
-
-.hydroseeding:hover, .overseeding:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
-}
-
-
-.hydroseeding h2 {
-    color: #1b5e20; 
-    font-family: Arial, sans-serif;
-    margin-top: 0;
-}
-
-.overseeding h2 {
-    color: #558b2f; 
-    font-family: Arial, sans-serif;
-    margin-top: 0;
-}
-
-/* Text styling */
-.hydroseeding p, .overseeding p {
-    color: #616161;
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    font-size: 0.95rem;
-}
-/* Layout container at the bottom of the page */
-.card-container {
-    display: flex;
-    justify-content: center;
-    align-items: stretch;
-    gap: 25px;
-    padding: 60px 20px;
-    flex-wrap: wrap;
-}
-
-/* Individual Card Styling using your specific class names */
-.hydroseeding, .overseeding {
-    background-color: #ffffff;
-    border: 1px solid #e0e0e0;
-    border-radius: 12px;
-    padding: 30px;
-    width: 320px;
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.08);
-    text-align: center;
-    transition: all 0.3s ease;
-}
-
-/* Hover effects */
-.hydroseeding:hover, .overseeding:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
-}
-
-/* Distinctive Header colors */
-.hydroseeding h2 {
-    color: #1b5e20; /* Deep Green */
-    font-family: Arial, sans-serif;
-    margin-top: 0;
-}
-
-.overseeding h2 {
-    color: #558b2f; /* Lighter Grass Green */
-    font-family: Arial, sans-serif;
-    margin-top: 0;
-}
-
-/* Text styling */
-.hydroseeding p, .overseeding p {
-    color: #616161;
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    font-size: 0.95rem;
-}
-=======
 h2 {
     clear: both !important;
     display: block !important;
     width: 100% !important;
 }
 
->>>>>>> newbranch
