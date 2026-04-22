@@ -46,22 +46,13 @@ body {
     margin-bottom: 15px;
     color:black;
 }
-<<<<<<< HEAD
- 
- 
-=======
 
->>>>>>> 4ccbded01065d532a2c7e31f2efd7c47323987d5
 @media (max-width: 768px) {
     .text-content {
         margin-left: auto;
         margin-right: auto;
     }
 }
-<<<<<<< HEAD
- 
-=======
->>>>>>> 4ccbded01065d532a2c7e31f2efd7c47323987d5
 
 .img-container {
     float: right;         /* Pushes image to the right */
@@ -84,11 +75,7 @@ body {
         margin-right: auto;
     }
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 4ccbded01065d532a2c7e31f2efd7c47323987d5
+
 /* Layout container at the bottom of the page */
 .card-container {
     display: flex;
@@ -184,15 +171,11 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     font-size: 0.95rem;
-<<<<<<< HEAD
+
 }
->>>>>>> os
+
 h2 {
     clear: both !important;
     display: block !important;
     width: 100% !important;
 }
-
-=======
-}
->>>>>>> 4ccbded01065d532a2c7e31f2efd7c47323987d5
