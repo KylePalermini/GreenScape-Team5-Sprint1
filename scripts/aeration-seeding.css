@@ -179,3 +179,9 @@ h2 {
     display: block !important;
     width: 100% !important;
 }
+
+.service1-1 {
+    display: flex !important;
+    flex-direction: column;
+    gap: 12px !important;
+}
