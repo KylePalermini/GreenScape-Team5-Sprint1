@@ -1,0 +1,20 @@
+.team-box {
+    /* This controls the width of the box */
+    width: 30%; 
+    
+    /* This centers the box on the page */
+    margin: 20px ; 
+
+    /* Standard box styling */
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+
+.team-box img {
+    /* Keeps your photo from spilling out of the 80% width box */
+    max-width: 100%; 
+    height: auto;
+}
