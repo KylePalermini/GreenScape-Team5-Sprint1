@@ -100,6 +100,19 @@
     transition: all 0.3s ease-in-out;
 }
 
+#request {
+    display: block !important;
+    color: #CED6BB;
+    background-color: #225A35 !important;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+#request:hover {
+    color: #225A35;
+    background-color: #97C23D !important;
+}
+
 
 /* ==================================== */
 /* --- Mobile/Tablet Responsiveness --- */
