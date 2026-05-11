@@ -26,10 +26,10 @@ body{
     object-fit: cover;
 }
 /* When the details tag is open, hide its summary child */
-details[open] summary {
+details[open] summary.More-Info{
   display: none;
 }
-details summary {
+details summary.More-Info{
     cursor: pointer;
 }
 @media (max-width: 500px ){
