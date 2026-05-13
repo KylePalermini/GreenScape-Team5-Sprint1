@@ -141,5 +141,18 @@
             </ul>
         </div>
     </footer>
+    <script>
+  document.querySelectorAll("details").forEach(details => {
+    const summary = details.querySelector("summary");
+
+    details.addEventListener("toggle", () => {
+      if (details.open) {
+        summary.textContent = "Less Info";
+      } else {
+        summary.textContent = "More Info";
+      }
+    });
+  });
+</script>
 </body>
 </html>
