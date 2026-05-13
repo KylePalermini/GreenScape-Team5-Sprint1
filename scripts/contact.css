@@ -33,6 +33,12 @@ textarea {
     margin-top: 8px;
 }
 
+/* Big textarea */
+textarea {
+    height: 320px;
+    resize: none;
+}
+
 .terms {
     margin-top: 25px;
     display: flex;
@@ -43,11 +49,6 @@ textarea {
 .terms input[type="checkbox"]{
     width: auto;
     margin-top: 3px;
-}
-/* Big textarea */
-textarea {
-    height: 250px;
-    resize: none;
 }
 
 .term {
