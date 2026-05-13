@@ -3,9 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="scripts/style.css">
+    <link rel="stylesheet" href="scripts/contact.css">
     <title> Contact us! </title>
 </head>
 <body>
-    
+    <h1>Contact Us Today</h1>
+    <p>For exceptional lawn care and personalized service, contact us today. We're here to help you achieve a beautiful, healthy lawn. Reach out now to discuss your lawn care needs!</p>
+
+    <form>
+        <label for="name">Your name</label><br>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Your email</label><br>
+        <input type="email" id="email" name="email"><br><br>
+                
+        <label for="number">Your phone number</label><br>
+        <input type="tel" id="number" name="number"><br><br>
+
+        <label for="message">Tell us about your request</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+        <input type="checkbox" id="terms" name="terms" required>
+        <label for="terms">I agree with the Terms and Conditions and the Privacy & Cookies Policy of UENI and any applicable Terms and Conditions of GreenScaping Solutions, LLC. This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</label>
+        <br>
+
+        <input type="submit" value="Send Message" id="submit">
+    </form>
 </body>
 </html>
