@@ -54,27 +54,51 @@
         </nav>
     </header>
 
-       <h1>Contact Us Today</h1>
-    <p>For exceptional lawn care and personalized service, contact us today. We're here to help you achieve a beautiful, healthy lawn. Reach out now to discuss your lawn care needs!</p>
-
+    <div class="details">
+        <h1>Contact Us Today</h1>
+        <p>For exceptional lawn care and personalized service, contact us today. We're here to help you achieve a beautiful, healthy lawn. Reach out now to discuss your lawn care needs!</p>
+    </div>
+    
     <form>
-        <label for="name">Your name</label><br>
-        <input type="text" id="name" name="name"><br><br>
+        <div class="form-grid">
 
-        <label for="email">Your email</label><br>
-        <input type="email" id="email" name="email"><br><br>
+            <!-- Left Side-->
+            <div class="left">
+                <label class="message" for="message">
+                    Tell us about your request
+                </label><br>
                 
-        <label for="number">Your phone number</label><br>
-        <input type="tel" id="number" name="number"><br><br>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea>
+            </div>
 
-        <label for="message">Tell us about your request</label><br>
-        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+            <!-- Right Side-->
+            <div class="right">
 
-        <input type="checkbox" id="terms" name="terms" required>
-        <label for="terms">I agree with the Terms and Conditions and the Privacy & Cookies Policy of UENI and any applicable Terms and Conditions of GreenScaping Solutions, LLC. This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</label>
-        <br>
+                <label for="name">Your name</label><br>
+                <input type="text" id="name" name="name"><br><br>
+
+                <label for="email">Your email</label><br>
+                <input type="email" id="email" name="email"><br><br>
+
+                <label for="number">Your phone number</label><br>
+                <input type="tel" id="number" name="number"><br><br>
+
+            </div>
+
+        </div>
+
+        <!--Terms of service-->
+        
+        <div class="terms">
+            <input type="checkbox" id="terms" name="terms" required>
+
+            <label for="terms">
+                I agree with the Terms and Conditions and the Privacy & Cookies Policy of UENI and any applicable Terms and Conditions of GreenScaping Solutions, LLC. This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.
+            </label>
+        </div>        
 
         <input type="submit" value="Send Message" id="submit">
+        
     </form>
 
     <footer>
