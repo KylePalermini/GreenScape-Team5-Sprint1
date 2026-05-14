@@ -81,3 +81,20 @@ textarea {
     color: #225A35;
     background-color: #97C23D;
 }
+
+@media (max-width: 500px){ 
+    .form-grid{
+        display: block;
+    }
+
+}
+
+@media (max-width: 1000px){ 
+    .location{
+        display: block;
+    }
+    textarea{
+        height: 470px;
+    }
+
+}
