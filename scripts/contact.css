@@ -65,9 +65,10 @@ textarea {
 
 /* button */
 #submit {
+    transition: all 0.3s ease-in-out;
     margin-top: 20px;
-    background-color: #4d8b31;
-    color: white;
+    background-color: #225A35;
+    color: #CED6BB;
     border: none;
     cursor: pointer;
     font-size: 16px;
@@ -77,5 +78,6 @@ textarea {
 }
 
 #submit:hover {
-    background-color: #3d7027;
+    color: #225A35;
+    background-color: #97C23D;
 }
