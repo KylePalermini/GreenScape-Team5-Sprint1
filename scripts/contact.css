@@ -35,8 +35,16 @@ textarea {
 
 /* Big textarea */
 textarea {
-    height: 320px;
+    height: 323px;
     resize: none;
+}
+
+.location {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: auto;
+    margin-top: 3px;
+    gap: 20px;
 }
 
 .terms {
